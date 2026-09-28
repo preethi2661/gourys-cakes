@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Goury's Cake House | Cakes, Hampers & Treats in Thrissur</title>
+  <meta name="description" content="Custom & classic cakes, gift hampers, brownies, cupcakes and popsicles in Thrissur. Baked fresh, delivered across Thrissur." />
+  <meta name="keywords" content="cakes Thrissur, custom cakes Thrissur, hampers Thrissur, brownies Thrissur, cupcakes Thrissur, cake delivery Thrissur, Goury's Cake House" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root{--primary:#e86f88;--primary-hover:#d2536d;--accent:#fcf4f5;--text-dark:#2c2c2c;--text-muted:#666;--white:#fff;--shadow:0 10px 30px rgba(0,0,0,.08);--radius:12px}
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:'Poppins',sans-serif;color:var(--text-dark);background:#fafafa;line-height:1.6}
+    h1,h2,h3{font-family:'Playfair Display',serif}
+    header{background:var(--white);position:sticky;top:0;z-index:1000;box-shadow:0 2px 15px rgba(0,0,0,.05)}
+    .navbar{max-width:1200px;margin:0 auto;padding:1.2rem 2rem;display:flex;justify-content:space-between;align-items:center}
+    .logo{font-size:1.8rem;font-weight:700;color:var(--primary);text-decoration:none}
+    .nav-links{display:flex;gap:2rem;list-style:none}
+    .nav-links a{text-decoration:none;color:var(--text-dark);font-weight:500;transition:color .3s}
+    .nav-links a:hover{color:var(--primary)}
+
+    .hero{background:linear-gradient(135deg,#fce4e8 0%,#fff 100%);padding:5rem 2rem;text-align:center}
+    .hero-content{max-width:800px;margin:0 auto}
+    .hero h1{font-size:2.8rem;line-height:1.2;margin-bottom:1rem}
+    .hero p{font-size:1.15rem;color:var(--text-muted);margin-bottom:2rem}
+
+    .cta-btn{display:inline-block;background:var(--primary);color:var(--white);padding:.9rem 2.2rem;border-radius:30px;text-decoration:none;font-weight:600;box-shadow:0 4px 15px rgba(232,111,136,.4);transition:all .3s;border:none;cursor:pointer;font-family:inherit;font-size:1rem}
+    .cta-btn:hover{background:var(--primary-hover);transform:translateY(-2px)}
+
+    .section{max-width:1200px;margin:0 auto;padding:4rem 2rem}
+    .section-title{text-align:center;font-size:2.2rem;margin-bottom:2.5rem}
+    .section-title::after{content:'';width:60px;height:3px;background:var(--primary);display:block;margin:.5rem auto 0;border-radius:2px}
+
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:2rem}
+    .card{background:var(--white);border-radius:var(--radius);box-shadow:var(--shadow);transition:transform .3s;text-align:center;padding:2rem 1.5rem}
+    .card:hover{transform:translateY(-5px)}
+    .card-icon{font-size:2.5rem;margin-bottom:1rem}
+    .card h3{font-size:1.4rem;margin-bottom:.8rem}
+    .card p{color:var(--text-muted);font-size:.95rem}
+
+    .gallery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem}
+    .gallery-item{background:#fff;border-radius:16px;box-shadow:0 10px 25px rgba(0,0,0,.08);height:320px;overflow:hidden}
+    .gallery-item img{width:100%;height:100%;object-fit:cover;object-position:top center;transition:transform .3s}
+    .gallery-item img:hover{transform:scale(1.04)}
+
+    .order-section{background:var(--accent);border-radius:var(--radius);padding:3rem 2rem;text-align:center}
+    .order-section .section-title{margin-bottom:1rem}
+    .order-form{max-width:600px;margin:2rem auto 0;display:flex;flex-direction:column;gap:1.2rem}
+    .form-group{text-align:left}
+    .form-group label{display:block;margin-bottom:.4rem;font-size:.9rem;font-weight:500}
+    .form-group input,.form-group select,.form-group textarea{width:100%;padding:.8rem 1rem;border:1px solid #ddd;border-radius:8px;font-family:inherit;font-size:.95rem}
+
+    footer{background:var(--text-dark);color:var(--white);text-align:center;padding:2.5rem 2rem;margin-top:4rem}
+    footer a{color:var(--primary);text-decoration:none}
+
+    @media(max-width:768px){.hero h1{font-size:2.1rem}.nav-links{display:none}}
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logo">Goury's Cake House</a>
+      <ul class="nav-links">
+        <li><a href="#menu">What We Make</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#order">Order Online</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Cakes, Hampers &amp; Sweet Treats in Thrissur</h1>
+      <p>Custom and classic cakes, gift hampers, brownies, cupcakes and popsicles, baked fresh by our team in Thrissur for your special moments.</p>
+      <a href="#order" class="cta-btn">Order via WhatsApp</a>
+    </div>
+  </section>
+
+  <section id="menu" class="section">
+    <h2 class="section-title">What We Make</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="card-icon">🎂</div>
+        <h3>Cakes</h3>
+        <p>Custom theme cakes made to your design, plus classic ready-made cakes for every occasion.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🎁</div>
+        <h3>Gift Hampers</h3>
+        <p>Beautifully packed hampers for birthdays, festivals and gifting, made to your budget.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🧁</div>
+        <h3>Brownies, Cupcakes &amp; Popsicles</h3>
+        <p>Fresh, bite-sized treats for parties, return gifts and dessert tables.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery" class="section">
+    <h2 class="section-title">Our Recent Creations</h2>
+    <div class="gallery-grid">
+      <div class="gallery-item"><img src="image1.jpg" alt="Handcrafted creation by Goury's Cake House, Thrissur" /></div>
+      <div class="gallery-item"><img src="image2.jpg" alt="Handcrafted creation by Goury's Cake House, Thrissur" /></div>
+      <div class="gallery-item"><img src="image3.jpg" alt="Handcrafted creation by Goury's Cake House, Thrissur" /></div>
+      <div class="gallery-item"><img src="image4.jpg" alt="Handcrafted creation by Goury's Cake House, Thrissur" /></div>
+      <div class="gallery-item"><img src="image5.jpg" alt="Handcrafted creation by Goury's Cake House, Thrissur" /></div>
+      <div class="gallery-item"><img src="image6.jpg" alt="Handcrafted creation by Goury's Cake House, Thrissur" /></div>
+      <div class="gallery-item"><img src="image7.jpg" alt="Handcrafted creation by Goury's Cake House, Thrissur" /></div>
+      <div class="gallery-item"><img src="image8.jpg" alt="Handcrafted creation by Goury's Cake House, Thrissur" /></div>
+      <div class="gallery-item"><img src="image9.jpg" alt="Handcrafted creation by Goury's Cake House, Thrissur" /></div>
+    </div>
+    <div style="text-align:center;margin-top:2.5rem">
+      <a href="https://www.instagram.com/gourys_cakes/" target="_blank" rel="noopener" class="cta-btn" style="background:#e1306c">View More on Instagram (@gourys_cakes)</a>
+    </div>
+  </section>
+
+  <section id="order" class="section">
+    <div class="order-section">
+      <h2 class="section-title">Place Your Order</h2>
+      <p>Fill in the details and send a direct WhatsApp enquiry to our kitchen in Thrissur.</p>
+      <form class="order-form" onsubmit="sendToWhatsApp(event)">
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" placeholder="Enter your name" required />
+        </div>
+        <div class="form-group">
+          <label for="category">What would you like?</label>
+          <select id="category" required onchange="updateSizes()">
+            <option value="Cake">Cake (Custom or Classic)</option>
+            <option value="Gift Hamper">Gift Hamper</option>
+            <option value="Brownies">Brownies</option>
+            <option value="Cupcakes">Cupcakes</option>
+            <option value="Cake Popsicles">Cake Popsicles</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="location">Delivery Location in Thrissur</label>
+          <input type="text" id="location" placeholder="e.g. East Fort, West Fort, Ollur" required />
+        </div>
+        <div class="form-group">
+          <label for="eventDate">Delivery Date</label>
+          <input type="date" id="eventDate" required />
+        </div>
+        <div class="form-group">
+          <label for="flavor">Flavor / Theme Preference</label>
+          <input type="text" id="flavor" placeholder="e.g. Belgian Chocolate, Floral Theme" required />
+        </div>
+        <div class="form-group">
+          <label for="weight" id="weightLabel">Weight</label>
+          <select id="weight" required></select>
+        </div>
+        <div class="form-group">
+          <label for="details">Design Notes or Custom Requests</label>
+          <textarea id="details" rows="3" placeholder="Colours, text on cake, hamper budget, etc."></textarea>
+        </div>
+        <button type="submit" class="cta-btn" style="width:100%">Send Order to WhatsApp</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Goury's Cake House, Thrissur. All rights reserved.</p>
+    <p style="margin-top:.5rem;font-size:.9rem">Follow us on Instagram: <a href="https://www.instagram.com/gourys_cakes/" target="_blank" rel="noopener">@gourys_cakes</a></p>
+  </footer>
+
+  <script>
+    const sizeOptions = {
+      cake: ["1 kg", "1.5 kg", "2 kg", "3 kg+"],
+      hamper: ["Small hamper", "Medium hamper", "Large hamper", "Bulk / Corporate"],
+      pieces: ["Box of 4", "Box of 6", "Box of 12", "Bulk order"]
+    };
+
+    function updateSizes() {
+      const cat = document.getElementById("category").value;
+      let type = "cake", label = "Weight";
+      if (cat === "Gift Hamper") { type = "hamper"; label = "Hamper Size"; }
+      else if (["Brownies", "Cupcakes", "Cake Popsicles"].includes(cat)) { type = "pieces"; label = "Quantity"; }
+      document.getElementById("weightLabel").textContent = label;
+      document.getElementById("weight").innerHTML =
+        sizeOptions[type].map(o => `<option value="${o}">${o}</option>`).join("");
+    }
+    updateSizes();
+
+    document.getElementById("eventDate").min = new Date().toISOString().split("T")[0];
+
+    function sendToWhatsApp(event) {
+      event.preventDefault();
+      const phoneNumber = "918129995333";
+      const v = id => document.getElementById(id).value;
+
+      const message =
+        `Hello Goury's Cake House! I would like to place an enquiry:\n` +
+        `- *Name:* ${v("name")}\n` +
+        `- *Item:* ${v("category")}\n` +
+        `- *Location:* ${v("location")}, Thrissur\n` +
+        `- *Date:* ${v("eventDate")}\n` +
+        `- *Flavor/Theme:* ${v("flavor")}\n` +
+        `- *Size/Qty:* ${v("weight")}\n` +
+        `- *Notes:* ${v("details") || "-"}`;
+
+      window.open(`https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`, "_blank");
+    }
+  </script>
+</body>
+</html>
